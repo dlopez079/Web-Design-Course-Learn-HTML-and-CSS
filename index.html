@@ -16,6 +16,10 @@
 
   <!-- Insert form -->
   <form method="post" action="mail.php" target="_blank" enctype="text/plain">
+    <!-- Input Title of form -->
+    <div>
+      <h3>Pratice Form</h3>
+    </div>
     <!-- Insert first text input -->
     <div>
       <label for="first">First: </label>
@@ -34,10 +38,22 @@
     
     <!-- Insert select input -->
     <div>
-      <select name="sel">
+
+      <!-- The name of the selection is sel.  The size will allow you to see 3 options.  Multiple will allow the user to selection multiple options using the shift key -->
+      <select name="sel" size="3" multiple>
         <option value="one">One</option>
         <option value="two">Two</option>
+        <option value="three">Three</option>
+        <option value="four">Four</option>
+        <option value="Five">Five</option>
       </select>
+    </div>
+
+    <br>
+
+    <!-- Insert input -->
+    <div>
+      <textarea name="message" rows="5" cols="40">Default Content</textarea>
     </div>
 
     <br>
