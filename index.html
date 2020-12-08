@@ -15,12 +15,39 @@
   <!-- Add more real content -->
 
   <!-- Insert form -->
-  <form method="get">
-    <label for="first">First: </label>
-    <input type="text" name="first" id="first" placeholder="First"><br>
-    <label for="last">Last: </label>
-    <input type=" text" name="last" id="last" placeholder="Last"><br>
+  <form method="post" action="mail.php" target="_blank" enctype="text/plain">
+    <!-- Insert first text input -->
+    <div>
+      <label for="first">First: </label>
+      <input type="text" name="first" id="first" placeholder="First">
+    </div>
+
+    <br>
+    
+    <!-- Insert second text input -->
+    <div>
+      <label for="last">Last: </label>
+      <input type=" text" name="last" id="last" placeholder="Last"><br>
+    </div>
+
+    <br>
+    
+    <!-- Insert select input -->
+    <div>
+      <select name="sel">
+        <option value="one">One</option>
+        <option value="two">Two</option>
+      </select>
+    </div>
+
+    <br>
+
+    <!-- Insert the submit button at the end. -->
     <input type="submit" value="Submit">
+
+
+    
+
   </form>
 
 </body>
