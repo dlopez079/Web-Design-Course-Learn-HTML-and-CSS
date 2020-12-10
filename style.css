@@ -31,7 +31,12 @@ form {
     background-color: grey;
     padding: 10px;
 }
+div.audio {
+    padding: 10px;
+    text-align: center;
+}
 div.media {
     background-color: grey;
     padding: 10px;
+    text-align: center;
 }
