@@ -1,10 +1,10 @@
 body {
-    background-color: greenyellow;
+    background-color: lightgrey;
 }
 
 /* Single line Notes */
 h1 {
-    color: red;
+    color: blue;
     text-align: center;
 }
 /* Multi
@@ -13,8 +13,8 @@ Notes */
 
 /* style created for the navigation bar */
 nav {
-    background: yellow;
-    color: red;
+    background: grey;
+    color: blue;
     padding: 10px;
     text-align: center;
 }
@@ -24,3 +24,14 @@ nav {
     text-align: center;
 }
 /* Style the first paragraph with padding on both sides.  Do not pad the top or bottom. */
+p.firstParagraph {
+    color: blue;
+}
+form {
+    background-color: grey;
+    padding: 10px;
+}
+div.media {
+    background-color: grey;
+    padding: 10px;
+}
