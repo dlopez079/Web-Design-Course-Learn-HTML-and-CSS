@@ -1,3 +1,20 @@
 body {
     background-color: greenyellow;
 }
+
+/* Single line Notes */
+h1 {
+    color: red;
+    text-align: center;
+}
+/* Multi
+line 
+Notes */
+
+/* style created for the navigation bar */
+nav {
+    background: yellow;
+    color: red;
+    padding: 10px;
+    text-align: center;
+}
