@@ -47,3 +47,15 @@ div.media {
 .paragraph {
     color: green;
 }
+.red {
+    background-color: red;
+    color: white;
+}
+.blue {
+    background-color: blue;
+    color: white;
+}
+.green {
+    background-color: green;
+    color: white;
+}
