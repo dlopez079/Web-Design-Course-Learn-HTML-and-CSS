@@ -85,8 +85,15 @@ div.media {
 #bg2 {
     background-color: yellow;
     height: 100px;
-    width: 75%;
+    width: 1200px;
 }
+
+#bg2a {
+    background-color: yellow;
+    height: 100px;
+    max-width: 1200px;
+}
+
 #bg3 {
     background-color: green;
     height: 100px;
