@@ -59,3 +59,12 @@ div.media {
     background-color: green;
     color: white;
 }
+#redtext {
+    color: red;
+}
+#bluetext {
+    color: blue;
+}
+#greentext {
+    color: green;
+}
