@@ -68,3 +68,17 @@ div.media {
 #greentext {
     color: green;
 }
+
+.background {
+    padding: 10px;
+    background-color: aquamarine;
+    text-align: center;
+}
+
+/* red background */
+#bg1 {
+    background-color: red;
+    height: 100px;
+    width: 50%;
+    text-align: center;
+}
