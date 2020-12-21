@@ -80,5 +80,15 @@ div.media {
     background-color: red;
     height: 100px;
     width: 50%;
-    text-align: center;
+    border:black dotted 10px;
+}
+#bg2 {
+    background-color: yellow;
+    height: 100px;
+    width: 75%;
+}
+#bg3 {
+    background-color: green;
+    height: 100px;
+    width: 100%;
 }
