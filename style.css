@@ -107,3 +107,8 @@ div.media {
 .notes  {
     font-style: italic;
 }
+
+.margin {
+    background-color: peru;
+    text-align: center;
+}
