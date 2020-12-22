@@ -118,7 +118,7 @@ div.media {
     border: 1px solid black;
 }
 
-.test1 {
-    margin-top: 10px;
-    border: 1px solid black;
+.test2 {
+    margin-right: 40px;
+    border: 1px solid red;
 }
