@@ -116,9 +116,11 @@ div.media {
 .test1 {
     margin-top: 40px;
     border: 1px solid black;
+    background-color: aliceblue;
 }
 
 .test2 {
     margin-right: 40px;
-    border: 1px solid red;
+    border: 1px solid black;
+    background-color: red;
 }
