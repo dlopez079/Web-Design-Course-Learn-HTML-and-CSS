@@ -256,21 +256,23 @@
     <h3>Background</h3>
     <p>Practicing with the background attributes</p>
     <div id="bg1">
-      Background 1
+      <h4>Background 1</h4>
     </div>
   
     <div id="bg2">
-      Background 2
+      <h4>Background 2</h4>
       <p>width = 1200px</p>
+      <p class="notes">When you minimize the view port from the sides (left to right or right to left), this block will get cut off.  The reason is because the width is static and will stay at 1200px regarding of viewport position or size.</p>
     </div>
 
     <div id="bg2a">
-      Background 2a
+      <h4>Background 2a</h4>
       <p>Max-width = 1200 px</p>
+      <p class="notes">When you minimize the view port from the sides (left to right or right to left), this block will shrink with the viewport.  The reason is because the max width will be recognized after the viewport grows pass the 1200px mark while the box will stay at 1200px.</p>
     </div>
   
     <div id="bg3">
-      Background 3
+      <h4>Background 3</h4>
     </div>
   </div>
 
