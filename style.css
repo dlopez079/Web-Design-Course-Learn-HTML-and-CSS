@@ -210,3 +210,7 @@ a:hover {
 a:active {
   color: purple;  
 }
+
+h1:hover {
+    background: yellow;
+}
