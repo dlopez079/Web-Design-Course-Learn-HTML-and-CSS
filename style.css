@@ -170,10 +170,13 @@ div.media {
     background-color: green;
 }
 
+.box-model {
+    background-color: grey;
+}
 #one {
     box-sizing: border-box;
     width: 300px;
-    border: 1px solid black;
+    border: 10px solid black;
     margin: 25px 50px 10px 100px;
     background: yellow;
     padding: 30px 10px;
