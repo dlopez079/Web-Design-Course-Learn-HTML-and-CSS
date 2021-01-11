@@ -138,3 +138,34 @@ div.media {
     border: 1px solid black;
     background-color: green;
 }
+
+.padding {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.padtest1 {
+    margin-top: 50px;
+    border: 1px solid black;
+    color: black;
+    background-color: aliceblue;
+}
+
+.padtest2 {
+    margin-right: 50px;
+    border: 1px solid black;
+    background-color: red;
+}
+
+.padtest3 {
+    margin-bottom: 50px;
+    border: 1px solid black;
+    background-color: blue;
+}
+
+.padtest4 {
+    margin-left: 100px;
+    border: 1px solid black;
+    background-color: green;
+}
