@@ -195,5 +195,18 @@ div.media {
     border: 5px solid blue;
 }
 
+a:link {
+    color: red;
+}
 
+a:visited {
+    color: green;
+}
 
+a:hover {
+    color: yellow;
+}
+
+a:active {
+  color: purple;  
+}
