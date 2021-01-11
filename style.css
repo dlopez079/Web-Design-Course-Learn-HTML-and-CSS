@@ -214,3 +214,7 @@ a:active {
 h1:hover {
     background: yellow;
 }
+
+input:hover {
+    background: darkgreen;
+}
