@@ -228,9 +228,9 @@ div::selection {
 }
 
 .psclass2::before {
-    content: "New";
+    content: "This is a pseudo element place before the div";
 }
 
 .psclass2::after {
-    content: "After!!!"
+    content: "This is a pseudo element placed after the div!!!"
 }
