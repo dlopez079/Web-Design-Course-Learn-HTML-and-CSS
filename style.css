@@ -234,3 +234,22 @@ div::selection {
 .psclass2::after {
     content: "This is a pseudo element placed after the div!!!"
 }
+
+/* Import Opens Sans font from google fonts using the import method.  This will keep all the information for the google font in one style sheet. */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+#font1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: larger;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');                                                                                                                              
+#font2 {
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 50px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Pacifico&display=swap');
+#font3 {              
+    font-family: 'Pacifico', cursive;
+    font-size:xx-large;
+}
