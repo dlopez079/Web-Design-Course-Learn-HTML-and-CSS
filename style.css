@@ -253,3 +253,12 @@ div::selection {
     font-family: 'Pacifico', cursive;
     font-size:xx-large;
 }
+
+/* Created style for the icons sections.   */
+.icons  {
+    background: orangered;
+    text-align: center;
+}
+.fab {
+    font-size: 100px;
+}
