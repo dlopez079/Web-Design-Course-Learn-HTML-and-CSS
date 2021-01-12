@@ -236,6 +236,9 @@ div::selection {
 }
 
 /* Import Opens Sans font from google fonts using the import method.  This will keep all the information for the google font in one style sheet. */
+.font-family {
+    background-color: green;
+}
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 #font1 {
     font-family: 'Open Sans', sans-serif;
