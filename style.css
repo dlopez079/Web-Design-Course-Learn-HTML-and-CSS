@@ -265,3 +265,17 @@ div::selection {
 .fab {
     font-size: 100px;
 }
+
+.text-change {
+    background: tan;
+    line-height: 50px;
+    font-size: 25px
+}
+
+h2  {
+    border: 1px solid black;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 5px orangered; /* (X)px (Y)px (Blur)px Color*/
+}
