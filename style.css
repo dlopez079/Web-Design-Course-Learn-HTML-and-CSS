@@ -218,3 +218,19 @@ h1:hover {
 input:hover {
     background: darkgreen;
 }
+
+.psclass1::first-letter {
+    background: red;
+}
+
+div::selection {
+    background: yellow;
+}
+
+.psclass2::before {
+    content: "New";
+}
+
+.psclass2::after {
+    content: "After!!!"
+}
