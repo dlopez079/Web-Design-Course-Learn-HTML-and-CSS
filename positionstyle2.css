@@ -48,16 +48,16 @@ nav ul li a {
 /* RELATIVE */
 #test1 {
     background: coral;
-    position: relative;
-    left: 50px; /* This is going to move the test1 box right 50px relative to the parent element position of 0,0. */
-    top: 50px; /* This is going to move the test1 box down 50 px relative to the parent element position 0,0*/
+    position: fixed;
+    left: 50px; 
+    top: 50px; 
     width: 30%;
 }
 
 /* RELATIVE */
 #test2 {
     background: lightgoldenrodyellow;
-    position: relative;
+    position: fixed;
     left: 600px;
     top: 10px;
     width: 30%;
