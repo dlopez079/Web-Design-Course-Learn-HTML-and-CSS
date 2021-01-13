@@ -46,7 +46,14 @@ nav ul li a {
     background: red;
     position: relative;
     left: 50px; /* This is going to move the test1 box right 50px relative to the parent element position of 0,0. */
-    top: 50px; /* This is going to move the test1 box down 50 px relative to the parent element position position 0,0*/
+    top: 50px; /* This is going to move the test1 box down 50 px relative to the parent element position 0,0*/
+}
+
+.test2 {
+    background: blue;
+    position: fixed;
+    left: 50px; /* This is going to move the test1 box right 50px relative to the viewport position of 0,0. */
+    top: 50px; /* This is going to move the test1 box down 50 px relative to the viewport position 0,0*/
 }
 
 section {
