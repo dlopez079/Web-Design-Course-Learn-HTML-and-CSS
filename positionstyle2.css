@@ -48,7 +48,7 @@ nav ul li a {
 /* RELATIVE */
 #test1 {
     background: coral;
-    position: fixed;
+    position: sticky;
     left: 50px; 
     top: 50px; 
     width: 30%;
@@ -57,7 +57,7 @@ nav ul li a {
 /* RELATIVE */
 #test2 {
     background: lightgoldenrodyellow;
-    position: fixed;
+    position: sticky;
     left: 600px;
     top: 10px;
     width: 30%;
@@ -81,10 +81,10 @@ nav ul li a {
 }
 */
 
-/* ABSOLUTE */
+/* stickyh */
 .test3 {
     background: green;
-    position: absolute;
+    position: sticky;
     left: 250px; /* This is going to move the test1 box right 50px relative to the viewport position of 0,0.  When you scroll, the box will stay where it is and not scroll with the viewport. */
     top: 50px; /* This is going to move the test1 box down 50 px relative to the viewport position 0,0.  When you scroll, the box will stay where it is and not scroll with the viewport.*/
     width: 500px; /* Added a width to the test element since section makes a size change after configuration position */
