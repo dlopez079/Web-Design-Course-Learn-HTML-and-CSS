@@ -54,6 +54,7 @@ nav ul li a {
     position: fixed;
     left: 50px; /* This is going to move the test1 box right 50px relative to the viewport position of 0,0. */
     top: 50px; /* This is going to move the test1 box down 50 px relative to the viewport position 0,0*/
+    width: 500px; /* Added a width to the test element since section makes a size change after configuration position */
 }
 
 section {
