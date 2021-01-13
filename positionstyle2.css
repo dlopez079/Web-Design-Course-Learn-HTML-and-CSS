@@ -1,0 +1,133 @@
+body {
+    background-color: lightgrey;
+}
+
+/* Single line Notes */
+h1 {
+    color: blue;
+    text-align: center;
+}
+/* Multi
+line 
+Notes */
+
+/* style created for the navigation bar */
+nav {
+    background: lightgoldenrodyellow;
+    color: green;
+    padding: 10px;
+    text-align: center;
+     width: 100%;
+}
+
+/* Nav Using Unordered list */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    width:  200px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    color: white;
+    background-color: coral;
+    height: 40px;
+    line-height: 50px;
+}
+
+
+
+/* ====================================================================================================================== */
+/* RELATIVE */
+.test1 {
+    background: coral;
+    position: relative;
+    left: 50px; /* This is going to move the test1 box right 50px relative to the parent element position of 0,0. */
+    top: 50px; /* This is going to move the test1 box down 50 px relative to the parent element position 0,0*/
+    width: 50%;
+}
+
+/* ====================================================================================================================== */
+
+
+
+
+
+
+/* FIXED */
+.test2 {
+    background: blue;
+    position: fixed;
+    left: 150px; /* This is going to move the test1 box right 50px relative to the viewport position of 0,0. */
+    top: 50px; /* This is going to move the test1 box down 50 px relative to the viewport position 0,0*/
+    width: 500px; /* Added a width to the test element since section makes a size change after configuration position */
+}
+
+/* ABSOLUTE */
+.test3 {
+    background: green;
+    position: absolute;
+    left: 250px; /* This is going to move the test1 box right 50px relative to the viewport position of 0,0.  When you scroll, the box will stay where it is and not scroll with the viewport. */
+    top: 50px; /* This is going to move the test1 box down 50 px relative to the viewport position 0,0.  When you scroll, the box will stay where it is and not scroll with the viewport.*/
+    width: 500px; /* Added a width to the test element since section makes a size change after configuration position */
+}
+
+/* STICKY */
+.test4 {
+    background: rgba(255, 0, 0, 0.5);
+    position: sticky;
+    left: 350px; /* This is going to move the test1 box right 50px relative to the viewport position of 0,0.  When you scroll, the box will stay where it is and not scroll with the viewport. */
+    top: 50px; /* This is going to move the test1 box down 50 px relative to the viewport position 0,0.  When you scroll, the box will stay where it is and not scroll with the viewport.*/
+    width: 500px; /* Added a width to the test element since section makes a size change after configuration position */
+}
+
+/* RELATIVE */
+.test5 {
+    background: lightcoral;
+    outline: 1px dotted lightgreen;
+    position: relative;
+    left: 250px; /* This is going to move the test1 box right 50px relative to the parent element position of 0,0. */
+    top: 50px; /* This is going to move the test1 box down 50 px relative to the parent element position 0,0*/
+    width: 50%
+}
+
+/* FIXED */
+.test2 {
+    background: blue;
+    position: fixed;
+    left: 150px; /* This is going to move the test1 box right 50px relative to the viewport position of 0,0. */
+    top: 50px; /* This is going to move the test1 box down 50 px relative to the viewport position 0,0*/
+    width: 500px; /* Added a width to the test element since section makes a size change after configuration position */
+}
+
+/* ABSOLUTE */
+.test3 {
+    background: green;
+    position: absolute;
+    left: 250px; /* This is going to move the test1 box right 50px relative to the viewport position of 0,0.  When you scroll, the box will stay where it is and not scroll with the viewport. */
+    top: 50px; /* This is going to move the test1 box down 50 px relative to the viewport position 0,0.  When you scroll, the box will stay where it is and not scroll with the viewport.*/
+    width: 500px; /* Added a width to the test element since section makes a size change after configuration position */
+}
+
+/* STICKY */
+.test4 {
+    background: rgba(255, 0, 0, 0.5);
+    position: sticky;
+    left: 350px; /* This is going to move the test1 box right 50px relative to the viewport position of 0,0.  When you scroll, the box will stay where it is and not scroll with the viewport. */
+    top: 50px; /* This is going to move the test1 box down 50 px relative to the viewport position 0,0.  When you scroll, the box will stay where it is and not scroll with the viewport.*/
+    width: 500px; /* Added a width to the test element since section makes a size change after configuration position */
+}
+
+section {
+    min-height: 300px;
+    border: 1px solid black;
+    padding: 10px;
+    text-align: justify;
+}
