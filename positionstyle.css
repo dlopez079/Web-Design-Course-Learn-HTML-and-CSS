@@ -41,3 +41,13 @@ nav ul li a {
     height: 40px;
     line-height: 50px;
 }
+
+.test1 {
+    background: red;
+    position: static;
+}
+
+section {
+    min-height: 400px;
+    border: 1px solid black;
+}
