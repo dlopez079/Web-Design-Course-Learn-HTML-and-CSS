@@ -54,7 +54,7 @@ nav ul li a {
 .test2 {
     background: blue;
     position: fixed;
-    left: 50px; /* This is going to move the test1 box right 50px relative to the viewport position of 0,0. */
+    left: 150px; /* This is going to move the test1 box right 50px relative to the viewport position of 0,0. */
     top: 50px; /* This is going to move the test1 box down 50 px relative to the viewport position 0,0*/
     width: 500px; /* Added a width to the test element since section makes a size change after configuration position */
 }
@@ -63,7 +63,16 @@ nav ul li a {
 .test3 {
     background: green;
     position: absolute;
-    left: 50px; /* This is going to move the test1 box right 50px relative to the viewport position of 0,0.  When you scroll, the box will stay where it is and not scroll with the viewport. */
+    left: 250px; /* This is going to move the test1 box right 50px relative to the viewport position of 0,0.  When you scroll, the box will stay where it is and not scroll with the viewport. */
+    top: 50px; /* This is going to move the test1 box down 50 px relative to the viewport position 0,0.  When you scroll, the box will stay where it is and not scroll with the viewport.*/
+    width: 500px; /* Added a width to the test element since section makes a size change after configuration position */
+}
+
+/* STICKY */
+.test4 {
+    background: rgba(255, 0, 0, 0.5);
+    position: sticky;
+    left: 350px; /* This is going to move the test1 box right 50px relative to the viewport position of 0,0.  When you scroll, the box will stay where it is and not scroll with the viewport. */
     top: 50px; /* This is going to move the test1 box down 50 px relative to the viewport position 0,0.  When you scroll, the box will stay where it is and not scroll with the viewport.*/
     width: 500px; /* Added a width to the test element since section makes a size change after configuration position */
 }
