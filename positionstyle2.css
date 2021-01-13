@@ -46,12 +46,21 @@ nav ul li a {
 
 /* ====================================================================================================================== */
 /* RELATIVE */
-.test1 {
+#test1 {
     background: coral;
     position: relative;
     left: 50px; /* This is going to move the test1 box right 50px relative to the parent element position of 0,0. */
     top: 50px; /* This is going to move the test1 box down 50 px relative to the parent element position 0,0*/
-    width: 50%;
+    width: 30%;
+}
+
+/* RELATIVE */
+#test2 {
+    background: lightgoldenrodyellow;
+    position: relative;
+    left: 600px;
+    top: 10px;
+    width: 30%;
 }
 
 /* ====================================================================================================================== */
@@ -62,13 +71,15 @@ nav ul li a {
 
 
 /* FIXED */
+/*
 .test2 {
     background: blue;
     position: fixed;
-    left: 150px; /* This is going to move the test1 box right 50px relative to the viewport position of 0,0. */
-    top: 50px; /* This is going to move the test1 box down 50 px relative to the viewport position 0,0*/
-    width: 500px; /* Added a width to the test element since section makes a size change after configuration position */
+    left: 150px; 
+    top: 50px; 
+    width: 500px; 
 }
+*/
 
 /* ABSOLUTE */
 .test3 {
@@ -126,8 +137,7 @@ nav ul li a {
 }
 
 section {
-    min-height: 300px;
     border: 1px solid black;
-    padding: 10px;
+    padding: 15px;
     text-align: justify;
 }
