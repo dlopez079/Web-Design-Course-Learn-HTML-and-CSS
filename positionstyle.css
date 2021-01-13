@@ -42,13 +42,16 @@ nav ul li a {
     line-height: 50px;
 }
 
+
+
+
 /* RELATIVE */
 .test1 {
     background: red;
     position: relative;
     left: 50px; /* This is going to move the test1 box right 50px relative to the parent element position of 0,0. */
     top: 50px; /* This is going to move the test1 box down 50 px relative to the parent element position 0,0*/
-    width: 50%;
+    width: 100%;
 }
 
 /* FIXED */
